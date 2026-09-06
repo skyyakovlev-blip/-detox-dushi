@@ -57,13 +57,13 @@
     .routes{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
     .route{position:relative;min-height:310px;border-radius:26px;overflow:hidden;background:#ddd;padding:24px;display:flex;align-items:end;color:white}
     .route:before{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(8,20,15,.88),rgba(8,20,15,.10) 70%)}
-    .route:nth-child(1){background:linear-gradient(145deg,#9fc7c0,#406e63)}
-    .route:nth-child(2){background:linear-gradient(145deg,#d7b16e,#53694e)}
-    .route:nth-child(3){background:linear-gradient(145deg,#9ab1ba,#2f4b4a)}
-    .route:nth-child(4){background:linear-gradient(145deg,#8aa9a4,#4e654c)}
+    .route:nth-child(1){background-image:url("assets/honey.jpg");background-size:cover;background-position:center}
+    .route:nth-child(2){background-image:url("assets/bermamyt.jpg");background-size:cover;background-position:center}
+    .route:nth-child(3){background-image:url("assets/dombay.jpg");background-size:cover;background-position:center}
+    .route:nth-child(4){background-image:url("assets/arkhyz.jpg");background-size:cover;background-position:center}
     .route-content{position:relative;z-index:1}
     .route small{opacity:.8}
-    .sound-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    .sound-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
     .sound{background:#fff;border-radius:26px;overflow:hidden;border:1px solid var(--line)}
     .sound img{aspect-ratio:1/1;object-fit:cover}
     .sound-body{padding:20px}
@@ -147,7 +147,7 @@
           <p class="lead">Едем небольшой компанией, останавливаемся там, где хочется задержаться, смотрим, дышим, фотографируемся и слушаем, как горы отвечают музыке.</p>
           <p>В программе могут быть прогулки, живая авторская песня, варганотерапия, звуковая ванна и спокойное общение. Без гонки за количеством локаций.</p>
         </div>
-        <div class="story-image"><img src="assets/kislovodsk.jpg" alt="Кавказ и Кисловодск" loading="lazy"></div>
+        <div class="story-image"><img src="assets/guitar.jpg" alt="Живая песня в горах" loading="lazy"></div>
       </div>
     </section>
 
@@ -175,6 +175,7 @@
           <p class="lead">Инструменты становятся частью места, дороги и общего воспоминания.</p>
         </div>
         <div class="sound-grid">
+          <article class="sound"><img src="assets/guitar.jpg" alt="Живая песня с гитарой в горах" loading="lazy"><div class="sound-body"><h3>Живая песня</h3><p>Авторская музыка и живое звучание среди гор.</p></div></article>
           <article class="sound"><img src="assets/vargan.jpg" alt="Варган в горах" loading="lazy"><div class="sound-body"><h3>Варган</h3><p>Дыхание, вибрация, внутренняя тишина.</p></div></article>
           <article class="sound"><img src="assets/energofon.jpg" alt="Энергофон в горах" loading="lazy"><div class="sound-body"><h3>Энергофон</h3><p>Пространственный живой звук и мягкая концентрация внимания.</p></div></article>
           <article class="sound"><img src="assets/tongdrum.jpg" alt="Тонг-драм в горах" loading="lazy"><div class="sound-body"><h3>Тонг‑драм</h3><p>Ровный ритм, созерцание и спокойный музыкальный привал.</p></div></article>
